@@ -1,0 +1,16 @@
+---
+- hosts: ws 
+  tasks: 
+  - name: enable && start apache2 
+    service: 
+      name: apache2 
+      state: restarted 
+      enabled: True
+    notify: 
+      - h1 
+
+  handlers:
+    - name: h1
+      copy: 
+        src: ./index.html
+        dest: /var/www/html/index.html

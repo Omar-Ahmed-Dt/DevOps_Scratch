@@ -1,0 +1,19 @@
+---
+- name: Install webserver 
+  hosts: ws 
+  become: yes 
+  tasks: 
+  - name : Install httpd 
+    apt: 
+      name: apache2
+      state: present 
+  - name: Copy index file from host to remote machine 
+    copy: 
+      src: ./index.html
+      dest: /var/www/html/index.html
+  - name : start and enable httpd 
+    service: 
+      name: apache2
+      state: started 
+      enabled: yes
+

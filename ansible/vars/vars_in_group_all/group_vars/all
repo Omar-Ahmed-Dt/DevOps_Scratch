@@ -1,0 +1,2 @@
+# Variables accessible by All the hosts from the inventory file 
+pkg: apache2 

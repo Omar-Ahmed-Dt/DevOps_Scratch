@@ -1,0 +1,14 @@
+---
+- hosts: ws 
+  tasks: 
+   - name: Create file with 777 
+     file: path=/home/ubuntu/ansible/file_play.txt state=touch mode=777
+     notify: 
+      - h1 
+
+   - name: Create file with 644 
+     file: path=/home/ubuntu/ansible/file_play_after_h.txt state=touch mode=644 
+
+  handlers:
+    - name: h1
+      file: path=/home/ubuntu/ansible/file_play.txt state=absent mode=777

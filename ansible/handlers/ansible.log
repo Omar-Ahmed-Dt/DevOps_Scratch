@@ -1,0 +1,28 @@
+2022-11-12 21:26:27,298 p=5271 u=ubuntu n=ansible | PLAY [ws] *******************************************************************************************************************************************************************
+2022-11-12 21:26:27,309 p=5271 u=ubuntu n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************
+2022-11-12 21:26:29,325 p=5271 u=ubuntu n=ansible | ok: [192.168.1.103]
+2022-11-12 21:26:29,427 p=5271 u=ubuntu n=ansible | TASK [enable && start apache2] **********************************************************************************************************************************************
+2022-11-12 21:26:31,726 p=5271 u=ubuntu n=ansible | changed: [192.168.1.103]
+2022-11-12 21:26:31,772 p=5271 u=ubuntu n=ansible | RUNNING HANDLER [h1] ********************************************************************************************************************************************************
+2022-11-12 21:26:33,484 p=5271 u=ubuntu n=ansible | ok: [192.168.1.103]
+2022-11-12 21:26:33,501 p=5271 u=ubuntu n=ansible | PLAY RECAP ******************************************************************************************************************************************************************
+2022-11-12 21:26:33,501 p=5271 u=ubuntu n=ansible | 192.168.1.103              : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-11-12 21:26:43,039 p=5310 u=ubuntu n=ansible | 192.168.1.103 | CHANGED | rc=0 >>
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sat 2022-11-12 21:26:32 EET; 11s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 9302 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 9306 (apache2)
+      Tasks: 55 (limit: 2288)
+     Memory: 4.8M
+        CPU: 64ms
+     CGroup: /system.slice/apache2.service
+             ├─9306 /usr/sbin/apache2 -k start
+             ├─9307 /usr/sbin/apache2 -k start
+             └─9308 /usr/sbin/apache2 -k start
+
+Nov 12 21:26:31 ubuntu-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov 12 21:26:32 ubuntu-VirtualBox apachectl[9305]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov 12 21:26:32 ubuntu-VirtualBox systemd[1]: Started The Apache HTTP Server.
+

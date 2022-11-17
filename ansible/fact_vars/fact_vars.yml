@@ -1,0 +1,14 @@
+- name: Gathering Facts 
+  hosts: ws 
+  tasks: 
+    - name: Print os name 
+      debug: 
+        var: ansible_distribution   # access string 
+
+    - name: Print Real Memory details  
+      debug: 
+        var: ansible_memory_mb.real.free   # access dictionary 
+
+    - name: Print Processor name 
+      debug: 
+        var: ansible_processor[2]   # acess list

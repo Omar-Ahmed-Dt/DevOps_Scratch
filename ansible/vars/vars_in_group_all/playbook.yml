@@ -1,0 +1,17 @@
+- hosts: ws 
+  become: yes
+# vars: 
+   #pkg: apache2 
+  tasks: 
+  - debug: 
+      var: pkg 
+
+  - debug: 
+      msg: "the name of the pkg is {{pkg}}"
+
+  - name: Install pkg 
+    apt: 
+        name: "{{pkg}}"
+        state: present 
+
+
