@@ -1,0 +1,24 @@
+
+PLAY [Gathering Facts] *********************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [192.168.1.103]
+
+TASK [Print os name] ***********************************************************
+ok: [192.168.1.103] => {
+    "ansible_distribution": "Ubuntu"
+}
+
+TASK [Print Real Memory details] ***********************************************
+ok: [192.168.1.103] => {
+    "ansible_memory_mb.real.free": "692"
+}
+
+TASK [Print Processor name] ****************************************************
+ok: [192.168.1.103] => {
+    "ansible_processor[2]": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+}
+
+PLAY RECAP *********************************************************************
+192.168.1.103              : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

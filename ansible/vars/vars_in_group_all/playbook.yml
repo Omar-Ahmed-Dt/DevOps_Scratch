@@ -7,7 +7,7 @@
       var: pkg 
 
   - debug: 
-      msg: "the name of the pkg is {{pkg}}"
+      msg: "PKG name is {{pkg}}"
 
   - name: Install pkg 
     apt: 

@@ -11,4 +11,4 @@
 
     - name: Print Processor name 
       debug: 
-        var: ansible_processor[2]   # acess list
+        var: ansible_processor[2]   # access list
