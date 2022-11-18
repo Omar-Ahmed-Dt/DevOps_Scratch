@@ -1,0 +1,23 @@
+---
+- name: Provisioning Server 
+  hosts: all 
+  become: yes
+  tasks: 
+    - name:  Install ntp on Ubuntu
+      apt: 
+        name: ntp 
+        state: present 
+      when: ansible_distribution == "Ubuntu"
+    - name:  Install ntp on Centos
+      yum: 
+        name: ntp 
+        state: present 
+      when: ansible_distribution == "CentOS"
+
+
+
+
+
+
+
+

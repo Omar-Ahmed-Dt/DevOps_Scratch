@@ -1,0 +1,5 @@
+command line 
+playbook 
+host_vars/hostname 
+group_vars/groupname
+group_vars/all
