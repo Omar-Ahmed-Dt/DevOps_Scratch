@@ -1,0 +1,27 @@
+to create role : 
+ansible-galaxy init role_name 
+tree role_name >> to check 
+
+---------------------------------------
+---------------------------------------
+
+❯ tree pro-test
+pro-test
+├── defaults
+│   └── main.yml
+├── files
+├── handlers
+│   └── main.yml
+├── meta
+│   └── main.yml
+├── README.md
+├── tasks
+│   └── main.yml
+├── templates
+├── tests
+│   ├── inventory
+│   └── test.yml
+└── vars
+    └── main.yml
+
+8 directories, 8 files

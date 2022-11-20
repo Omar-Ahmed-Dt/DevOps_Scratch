@@ -1,0 +1,63 @@
+---
+- name: Provisioning servers
+  hosts: all 
+  become: yes 
+  remote_user: root
+  tasks: 
+    - name: install pkgs 
+      apt: 
+        name: "{{item}}"
+        state: present 
+        update_cache: yes
+      when: ansible_distribution == "Ubuntu"
+      loop: 
+          - ntp 
+          - wget 
+          - zip
+    - name: Add Group 
+      group: 
+          name: devops 
+          state: present
+      when: ansible_distribution == "CentOS"
+      notify:
+      - Add users
+      - Add users2
+
+  handlers:
+      - name: Add users
+        user: 
+            name: "{{item}}" 
+            state: present
+        when: ansible_distribution == "CentOS"
+        loop: 
+          - user1
+          - user2
+          - user3
+          - user4
+
+      - name: Add users2
+        user: 
+            name: "{{item}}" 
+            state: present
+        when: ansible_distribution == "CentOS"
+        loop: "{{usernames}}"
+
+
+#    - name: Add users 
+#      user: 
+#          name: "{{item}}" 
+#          state: present
+#      when: ansible_distribution == "CentOS"
+#      loop: 
+#        - user1
+#        - user2
+#        - user3
+#        - user4
+#
+#    - name: Add users2 
+#      user: 
+#          name: "{{item}}" 
+#          state: present
+#      when: ansible_distribution == "CentOS"
+#      loop: "{{usernames}}"
+#

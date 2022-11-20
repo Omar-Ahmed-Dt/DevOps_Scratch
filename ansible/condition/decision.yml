@@ -10,14 +10,6 @@
       when: ansible_distribution == "Ubuntu"
     - name:  Install ntp on Centos
       yum: 
-        name: ntp 
+        name: ntpstat
         state: present 
       when: ansible_distribution == "CentOS"
-
-
-
-
-
-
-
-
