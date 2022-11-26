@@ -1,6 +1,6 @@
-# Python Crash Course 
+=> Python Crash Course 
 
-# Naming and Using Variables : 
+=> Naming and Using Variables : 
 
 • Variable names can contain only letters, numbers, and underscores. 
 They can start with a letter or an underscore, but not with a number. 
