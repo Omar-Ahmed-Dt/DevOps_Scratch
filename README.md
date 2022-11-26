@@ -1,5 +1,5 @@
 # devops_scratch
- * asnible 
+ * ansible 
  * python
   
  
