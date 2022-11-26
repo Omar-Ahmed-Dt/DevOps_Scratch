@@ -1,4 +1,4 @@
-# devops_scratch
+# DevOps Scratch
  * ansible 
  * python
   
