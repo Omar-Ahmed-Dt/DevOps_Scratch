@@ -1,0 +1,24 @@
+; 	Semi Colon 
+: 	Colon 	
+/ 	Slash 
+\ 	Back Slash
+| 	Pipe 
+{ 	Curly Braces 	
+} 	Curly Braces 
+[ 	Square Brackets
+] 	Square Brackets 
+` 	Backticks
+~ 	Snake 
+‘ 	Single Quotation 
+“ 	Double Quotations 
+! 	Exclamation Mark 
+# 	Hash 	
+$ 	Dollar Sign
+% 	Percent 
+^ 	Caret 
+& 	Ampersand
+* 	Asterisk 
+( 	Parentheses
+) 	Parentheses 
+< 	Less Than 
+> 	Greater Than
