@@ -1,5 +1,5 @@
 # Python Crash Course 
----
+- - -
 
 ## [1] Naming and Using Variables : 
 
@@ -22,4 +22,5 @@ than length_of_persons_name.
 
 * Be careful when using the lowercase letter l and the uppercase letter O 
 because they could be confused with the numbers 1 and 0.
+
 --- 
