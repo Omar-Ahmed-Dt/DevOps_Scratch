@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+#
+# export season="Winter" : in
+# .bashrc , .profile >> For the user 
+# /etc/profile >> For global : 
+

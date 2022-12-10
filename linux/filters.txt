@@ -1,0 +1,48 @@
+grep : 
+
+grep pattern input_file 
+grep pattern < input_file 
+
+grep -i pattern input_file 
+
+grep -R pattern input >> Read all  files  under  each  directory (search in all files and directories)
+grep -R SELINUX /etc/* 
+
+##### 
+
+head : 
+head -20 input_file
+
+##### 
+
+tail : 
+tail -20 input_file 
+tail -f input_log_file
+tail -f /var/log/wtmp
+
+##### 
+
+cut : 
+cut -d: -f1 /etc/passwd  >>>>  -d: ( cut by : )  and -f1 ( take first filed ) 
+
+##### 
+
+awk : 
+awk -F':' '{print $1}' /etc/passwd
+
+##### 
+
+vim : 
+:%s/word/new_word
+:%s/word/new_word/g  >> global
+
+:%s/word//g 
+
+##### 
+
+sed : 
+sed 's/word/new_word/g' input_file 
+sed 's/word/new_word/g' *  >> all files 
+
+sed -i 's/word/new_word/g' input_file   >> change the file  
+

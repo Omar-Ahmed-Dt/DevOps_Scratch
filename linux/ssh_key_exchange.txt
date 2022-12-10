@@ -1,0 +1,65 @@
+first_machine : 
+
+~ » ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase):  enter    
+Enter same passphrase again:  enter 
+Your identification has been saved in /home/vagrant/.ssh/id_rsa
+Your public key has been saved in /home/vagrant/.ssh/id_rsa.pub
+The key fingerprint is: enter 
+SHA256:KkVrA05U4M+SLpGdplwgcUuxfixiB5/g/CTTbEoGfHc vagrant@ubuntu-focal
+The key's randomart image is:
++---[RSA 3072]----+
+|. +.oo.          |
+|.+ =             |
+|o++.+..E         |
+|+oBBoB..         |
+|.O=O@ B S        |
+|+oOO + o         |~ » ssh-copy-id ubuntu@192.168.1.103
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vagrant/.ssh/id_rsa.pub"
+The authenticity of host '192.168.1.103 (192.168.1.103)' can't be established.
+ECDSA key fingerprint is SHA256:RglEv1HKhgiduxeAAOqQlH4l06HOLY2DXNeFHAnzyZA.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+ubuntu@192.168.1.103's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'ubuntu@192.168.1.103'"
+and check to make sure that only the key(s) you wanted were added.
+| .+.o .          |
+|   . .           |
+|                 |
++----[SHA256]-----+
+
+# # # # # # # # # # # # # #
+# # # # # # # # # # # # # # 
+
+second_machine : ubuntu , ip : 192.168.1.103
+
+~ » ssh-copy-id ubuntu@192.168.1.103
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vagrant/.ssh/id_rsa.pub"
+The authenticity of host '192.168.1.103 (192.168.1.103)' can't be established.
+ECDSA key fingerprint is SHA256:RglEv1HKhgiduxeAAOqQlH4l06HOLY2DXNeFHAnzyZA.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+ubuntu@192.168.1.103's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'ubuntu@192.168.1.103'"
+and check to make sure that only the key(s) you wanted were added.
+
+# # # # # # # # # # # # # #
+# # # # # # # # # # # # # # 
+
+first_machine : 
+~ » ssh ubuntu@192.168.1.103 uptime 
+22:51:26 up 3 min,  1 user,  load average: 0.72, 0.55, 0.23
+
+~ » ssh -i .ssh/id_rsa ubuntu@192.168.1.103
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-50-generic x86_64)
+~ >> 

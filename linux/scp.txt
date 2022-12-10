@@ -1,0 +1,8 @@
+scp file username@hostname | ip:destination_path
+
+ex: 
+scp testfile.txt ubuntu@ip:/tmp/ >> for file 
+scp testfile.txt vagrant@web01:/tmp/
+
+scp -r path_dire vagrant@web01:/tmp/ >> for directory
+
