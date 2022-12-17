@@ -1,0 +1,33 @@
+# demo1 
+https://github.com/khalednoh/demo1.git
+from github go to : demo1/blob/master/src/main/resources/application.properties: server.port=8090 >> to access app from browser 
+
+#### 
+# console output : 
+
+>>> Start Running jar file 
++ java -jar /var/lib/jenkins/workspace/mavenjob/target/demo1-0.0.1-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.0.RELEASE)
+
+٢٠٢٢-١٢-١٧ ١٤:٤١:٠٥.١٢٢  INFO 6097 --- [           main] com.example.Demo1Application             : Starting Demo1Application v0.0.1-SNAPSHOT on ubuntu-VirtualBox with PID 6097 (/var/lib/jenkins/workspace/mavenjob/target/demo1-0.0.1-SNAPSHOT.jar started by jenkins in /var/lib/jenkins/workspace/mavenjob)
+٢٠٢٢-١٢-١٧ ١٤:٤١:٠٥.١٢٦  INFO 6097 --- [           main] com.example.Demo1Application             : No active profile set, falling back to default profiles: default
+٢٠٢٢-١٢-١٧ ١٤:٤١:٠٧.٧٠٧  INFO 6097 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http) <<<< port
+٢٠٢٢-١٢-١٧ ١٤:٥٦:٠٣.٣٢٦  INFO 7120 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext <<< install tomcat on localhost
+
+
+to access from browser : 
+http://192.168.1.4:8090
+http://192.168.1.4:8090/persons/all
+
+
+#########
+add webhook: 
+repo test : https://github.com/Omar-Ahmed-Dt/demo1
+
