@@ -2,4 +2,5 @@
  * ansible 
  * python
  * linux 
+ * maven 
  * jenkins 
