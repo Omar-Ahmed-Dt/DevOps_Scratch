@@ -1,0 +1,39 @@
+Vagrant.configure("2") do |config|
+  config.hostmanager.enabled = true 
+  config.hostmanager.manage_host = true
+  
+### apollo VM ###
+  config.vm.define "apollo" do |apollo|
+    apollo.vm.box = "ubuntu/trusty64"
+    apollo.vm.hostname = "apollo"
+	apollo.vm.network "private_network", ip: "192.168.56.11"
+  end
+  
+### juno VM ###
+  config.vm.define "juno" do |juno|
+    juno.vm.box = "ubuntu/trusty64"
+    juno.vm.hostname = "juno"
+	juno.vm.network "private_network", ip: "192.168.56.12"
+  end
+
+### hera VM ###
+  config.vm.define "hera" do |hera|
+    hera.vm.box = "ubuntu/trusty64"
+    hera.vm.hostname = "hera"
+	hera.vm.network "private_network", ip: "192.168.56.13"
+  end
+
+### jupiter VM ###
+  config.vm.define "jupiter" do |jupiter|
+    jupiter.vm.box = "ubuntu/trusty64"
+    jupiter.vm.hostname = "jupiter"
+	jupiter.vm.network "private_network", ip: "192.168.56.14"
+  end
+
+### poseidon VM ###
+  config.vm.define "poseidon" do |poseidon|
+    poseidon.vm.box = "ubuntu/trusty64"
+    poseidon.vm.hostname = "poseidon"
+	poseidon.vm.network "private_network", ip: "192.168.56.15"
+  end
+end
