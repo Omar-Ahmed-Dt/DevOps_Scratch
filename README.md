@@ -21,5 +21,7 @@ compete more effectively in the market.
 * Docker 
 * Cloud 
     - [x] AWS
+* SCM 
+    - [x] GitHub
 * maven
 * Jenkins 
