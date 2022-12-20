@@ -11,6 +11,8 @@ and services at high velocity: evolving and improving products at a faster pace 
 and infrastructure management processes. This speed enables organizations to better serve their customers and
 compete more effectively in the market.
 
+---
+
 * Linux_OS  
 * Scripting  
     - [x] python
