@@ -3,7 +3,7 @@
 
 ### DevOps Model Defined
 
-![alt text](https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.shalb.com%2Fwp-content%2Fuploads%2F2019%2F11%2FDevops1.jpeg&sp=1671568935T2013ca85924196f753919f1cb857e6a324ced65c2740f23af0e3eadb0ee33585)
+![img](https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.shalb.com%2Fwp-content%2Fuploads%2F2019%2F11%2FDevops1.jpeg&sp=1671568935T2013ca85924196f753919f1cb857e6a324ced65c2740f23af0e3eadb0ee33585)
 
 
 DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications
