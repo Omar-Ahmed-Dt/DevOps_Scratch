@@ -9,3 +9,10 @@ services:
     environment:
       - NODE_ENV=development
     command: npm run start-dev
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
