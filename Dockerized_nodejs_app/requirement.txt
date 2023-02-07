@@ -1,0 +1,13 @@
+## 
+1- install nodejs and npm 
+## 
+2- run : 
+npm init 
+npm i express
+npm i nodemon --save-dev
+## 
+3- run server via browser : 
+npm run start-dev
+## 
+4- run : 
+npm i redis 
