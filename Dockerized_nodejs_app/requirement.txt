@@ -10,4 +10,7 @@ npm i nodemon --save-dev
 npm run start-dev
 ## 
 4- run : 
+npm i mongoose 
+## 
+5- run : 
 npm i redis 
