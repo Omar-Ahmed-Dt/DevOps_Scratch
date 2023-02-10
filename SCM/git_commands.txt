@@ -1,0 +1,13 @@
+## 
+git status 
+
+git add <file name> <file name>  
+git reset head <file name > 
+
+git commit -m "message"
+
+git branch  # branch name  
+git remote -v   # remote name  
+git push <remote name> <branch name>
+
+
