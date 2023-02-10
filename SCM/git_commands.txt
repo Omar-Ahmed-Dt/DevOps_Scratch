@@ -9,5 +9,3 @@ git commit -m "message"
 git branch  # branch name  
 git remote -v   # remote name  
 git push <remote name> <branch name>
-
-
