@@ -1,11 +1,12 @@
 ## 
-git status 
+git status  # show modified files in working directory, staged for your next commit 
 
-git add <file name> <file name>  
-git reset head <file name > 
+git add <file name> <file name>     # stage files    
+git reset head <file name >         # unstage files  
 
-git commit -m "message"
+git commit -m "message"     # commit your staged content as a new commit snapshot
 
-git branch  # branch name  
+git branch      # branch name  
 git remote -v   # remote name  
-git push <remote name> <branch name>
+git push <remote name> <branch name>    # move files from local repo to remote repo
+
