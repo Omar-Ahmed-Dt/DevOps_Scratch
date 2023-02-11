@@ -20,6 +20,7 @@ git config -l
 git help config 
 git config -l --show-origin
 
-git config --global user.name 
-git config --global user.name "<Username>"
-git config --global --unset user.name
+git config --global user.name       # show username 
+git config --global user.name "<Username>"      # set username
+git config --global --unset user.name       # unset username 
+
