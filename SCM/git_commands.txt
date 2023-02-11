@@ -1,4 +1,6 @@
 ## 
+
+git init    # initialize new repo
 git status  # show modified files in working directory, staged for your next commit 
 
 git add <file name> <file name>     # stage files    
@@ -13,3 +15,11 @@ git push <remote name> <branch name>    # move files from local repo to remote r
 git pull <remote repo>      # fetch and merge any commits from remote repo
     - git fetch
     - git merge
+
+git config -l 
+git help config 
+git config -l --show-origin
+
+git config --global user.name 
+git config --global user.name "<Username>"
+git config --global --unset user.name
