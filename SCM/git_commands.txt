@@ -1,5 +1,4 @@
 ## 
-
 git init    # initialize new repo
 git status  # show modified files in working directory, staged for your next commit 
 
@@ -23,4 +22,3 @@ git config -l --show-origin
 git config --global user.name       # show username 
 git config --global user.name "<Username>"      # set username
 git config --global --unset user.name       # unset username 
-
