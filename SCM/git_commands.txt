@@ -41,4 +41,4 @@ git merge <branch name>     # merge a mentioned branch into your current branch 
 git branch -d <branch name>
 git pull origin main  
 # or : 
-git push origin <branch name>       # then accept the pull request from github
+git push origin <branch name>       # then accept the pull request from GitHub
