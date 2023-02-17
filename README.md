@@ -20,6 +20,7 @@ compete more effectively in the market.
     - [x] Bash 
 * Ansible 
 * Docker 
+* kubernetes
 * Cloud 
     - [x] AWS
 * SCM 
