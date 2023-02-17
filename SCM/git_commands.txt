@@ -42,13 +42,15 @@ git branch -d <branch name>
 git pull origin main  
 # or : 
 git push origin <branch name>       # then accept the pull request from GitHub
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 
+# Stash : temporary commits 
+git stash 
+git stash list 
+git stash pop 
+git stash pop  stash@{index}
+git stash apply 
+git stash save <"message">
+git stash drop 
+git stash drop stash@{index}
+git stash clear
 
->>>>>>> Stashed changes
-=======
-
-
->>>>>>> Stashed changes
