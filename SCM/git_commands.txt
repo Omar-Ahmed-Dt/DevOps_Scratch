@@ -8,7 +8,9 @@ git reset head <file name >         # unstage files
 git commit -m "message"     # commit your staged content as a new commit snapshot
 
 git branch      # branch name  
+    - main | master branch 
 git remote -v   # remote name  
+    - origin branch 
 git push <remote name> <branch name>    # move files from local repo to remote repo
 
 git pull <remote repo>      # fetch and merge any commits from remote repo
@@ -22,3 +24,21 @@ git config -l --show-origin
 git config --global user.name       # show username 
 git config --global user.name "<Username>"      # set username
 git config --global --unset user.name       # unset username 
+
+# branching 
+git branch
+
+git branch <branch name>    # create new branch 
+git checkout <branch name>      # go to the mentioned branch 
+# or :  
+git checkout -b <branch name>       # create branch and go to the new branch 
+
+git checkout main       # go to main branch 
+git branch -d <branch name>     # delete branch
+git branch -D <branch name>     # force-delete branch
+# Merge :  
+git merge <branch name>     # merge a mentioned branch into your current branch  (main branch)
+git branch -d <branch name>
+git pull origin main  
+# or : 
+git push origin <branch name>       # then accept the pull request from github
