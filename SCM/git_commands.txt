@@ -25,7 +25,7 @@ git config --global user.name       # show username
 git config --global user.name "<Username>"      # set username
 git config --global --unset user.name       # unset username 
 
-# branching 
+# Branching 
 git branch
 
 git branch <branch name>    # create new branch 
@@ -53,4 +53,18 @@ git stash save <"message">
 git stash drop 
 git stash drop stash@{index}
 git stash clear
+
+# Restore 
+git add <..>
+git restore --stageed <file name>     # to unstage file  
+
+# Clean 
+git clean -n 
+git add <file name>
+git clean -f 
+
+# Reset 
+git log 
+git reset --head <hash>
+git push origin main --force 
 
