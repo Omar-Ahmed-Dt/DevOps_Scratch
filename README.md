@@ -15,15 +15,20 @@ compete more effectively in the market.
 
 * Networking  
 * Linux_OS  
-* Scripting  
-    - [x] python
+* Web_Server
+    - [x] Apache
+    - [x] Nginx
+* Scripting 
+    - [x] Python
     - [x] Bash 
+* Database 
+    - [x] MariaDB
 * Ansible 
 * Docker 
 * kubernetes
 * Cloud 
     - [x] AWS
 * SCM 
-    - [x] GitHub
+    - [x] Git and GitHub
 * maven
 * Jenkins 
