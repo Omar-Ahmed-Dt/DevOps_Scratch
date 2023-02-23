@@ -28,7 +28,7 @@ compete more effectively in the market.
 * kubernetes
 * Cloud 
     - [x] AWS
-* SCM 
+* VCS
     - [x] Git and GitHub
 * maven
 * Jenkins 
