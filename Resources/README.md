@@ -18,6 +18,8 @@
 * Kubernetes 
 >https://www.youtube.com/playlist?list=PLTbS-zwfzODB7RVIedHNql5u0ObBgbjjH
 >>https://www.youtube.com/playlist?list=PLX1bW_GeBRhDCHijCrMO5F-oHg52rRBpl
+* DataBase > MongoDB
+> https://www.youtube.com/playlist?list=PLMYF6NkLrdN-XN8xmNeznvIcfL_RySLXd
 * Terraform 
 > https://www.youtube.com/watch?v=V4waklkBC38
 * AWS 
