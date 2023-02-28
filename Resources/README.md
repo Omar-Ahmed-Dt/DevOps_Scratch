@@ -17,6 +17,7 @@
 > Kubernetes 
 * https://www.youtube.com/playlist?list=PLTbS-zwfzODB7RVIedHNql5u0ObBgbjjH
 * https://www.youtube.com/playlist?list=PLX1bW_GeBRhDCHijCrMO5F-oHg52rRBpl
+* https://www.youtube.com/watch?v=X48VuDVv0do
 > DataBase > MongoDB
 * https://www.youtube.com/watch?v=rVkkN9rOF4o
 * https://www.mongodb.com/developer/products/mongodb/cheat-sheet/
