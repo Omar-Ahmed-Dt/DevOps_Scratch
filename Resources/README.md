@@ -27,6 +27,8 @@
 > AWS 
 * https://www.youtube.com/playlist?list=PLOoZRfEtk6kWSM_l9xMjDh-_MJXl03-pf
 > Ansible 
+* https://www.youtube.com/playlist?list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70
+* https://www.youtube.com/playlist?list=PL0yQYCnvTmOv7ctKBb66YQx11NrQPWSrx
 * https://www.youtube.com/playlist?list=PLOeEp3fYj7rojjhsYYgtM_iOOaPnigrmT
 > Cotinuous Integration with Jenkins 
 * https://www.youtube.com/playlist?list=PLLX4WuTjm3tLSokfozb34-1DN3nRQ6uDi
