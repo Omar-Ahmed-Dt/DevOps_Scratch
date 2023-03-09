@@ -1,0 +1,40 @@
+Vagrant.configure("2") do |config|
+  # config.hostmanager.enabled = true 
+  # config.hostmanager.manage_host = true
+  
+### apollo VM ###
+  config.vm.define "apollo" do |apollo|
+    apollo.vm.box = "ubuntu/trusty64"
+    apollo.vm.hostname = "apollo"
+	apollo.vm.network "private_network", ip: "192.168.56.11"
+    apollo.vm.provider "virtualbox" do |vb|
+      vb.memory = "5120"
+    end
+    apollo.vm.provision "shell", inline: <<-SHELL
+      apt update
+      mkdir /home/apollo/test/
+      wget https://gist.githubusercontent.com/jhines2k7/5a5386d46f5943151f88/raw/743bdcef6cde1953272ee9896097e06f9486fbc9/vagrant-file-tomcat-mariadb-centos.ruby
+    SHELL
+  end
+  
+### juno VM ###
+  config.vm.define "juno" do |juno|
+    juno.vm.box = "ubuntu/trusty64"
+    juno.vm.hostname = "juno"
+	juno.vm.network "private_network", ip: "192.168.56.12"
+    juno.vm.provider "virtualbox" do |vb|
+        vb.memory = "3072"
+    end
+  end
+
+### hera VM ###
+  config.vm.define "hera" do |hera|
+    hera.vm.box = "ubuntu/trusty64"
+    hera.vm.hostname = "hera"
+	hera.vm.network "private_network", ip: "192.168.56.13"
+    hera.vm.provider "virtualbox" do |vb|
+         vb.memory = "3072"
+    end
+  end
+
+end 
