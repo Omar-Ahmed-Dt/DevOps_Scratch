@@ -1,0 +1,40 @@
+>> Python: 
+# key:value
+{"DevOps":["AWS","Jenkins","Ansible"],"Development":["Java","Go","C"],"ansible_facts":{"python":"/usr/bin/python"}}  >> value as a list, value as a
+dictionary
+
+
+>> Json: 
+{
+    "DevOps":
+    [
+    "AWS",
+    "Jenkins",
+    "Ansible"
+    ],
+    "Development":
+    [
+    "Java", 
+    "Go",
+    "C"
+    ],
+    "ansible_facts": 
+    {
+    "python": "/usr/bin/python"
+    } 
+}
+
+>> Yaml: 
+DevOps: 
+- AWS
+- Jenkins
+- Ansible
+
+Development:
+- Java
+- Go 
+- C 
+
+ansible_facts:
+    python: /usr/bin/python
+

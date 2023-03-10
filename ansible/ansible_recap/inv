@@ -1,0 +1,39 @@
+# defining variables at the group level  >> 1
+test1 ansible_host=54.173.207.17
+test2 ansible_host=34.203.201.101
+test3 ansible_host=52.23.244.252
+
+# defining variables at the host level 
+# hosts info
+#test1 ansible_host=54.173.207.17 ansible_user=ubuntu ansible_ssh_private_key_file=DT.pem
+#test2 ansible_host=34.203.201.101 ansible_user=ubuntu ansible_ssh_private_key_file=DT.pem
+
+# group info
+[srv1]
+test1 
+[srv2]
+test2 
+[srv3]
+test3 
+
+# group of group 
+# parent group info
+[srvgrps:children]
+srv1
+srv2
+srv2
+srv3
+# defining variables at the group level  >> 2 
+[srvgrps:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=DT.pem
+
+# defining variables at the group level  >> 2 
+[srvs]
+test1
+test2
+test3
+[srvs:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=DT.pem
+

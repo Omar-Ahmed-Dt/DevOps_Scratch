@@ -1,0 +1,22 @@
+# two plays 
+- name: Setup Web Server 
+  hosts: srvgrps 
+  become: yes 
+  tasks: 
+    - name: install apache 
+      apt: 
+        name: apache2
+        state: present 
+    - name: enable and start apache 
+      service: 
+        name: apache2
+        state: started 
+        enabled: yes
+- name: implementation Web Server 
+  hosts: srvgrps
+  become: yes 
+  tasks: 
+    - name: add static file 
+      copy:
+        src: /home/ubuntu/ansible/index.html
+        dest: /var/www/html/index.html
