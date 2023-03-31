@@ -23,12 +23,13 @@ compete more effectively in the market.
     - [x] Bash 
 * Database 
     - [x] MariaDB
-* Ansible 
+* Configuration Management
+    - [x] Ansible
 * Docker 
 * kubernetes
 * Cloud 
     - [x] AWS
 * VCS
     - [x] Git and GitHub
-* maven
-* Jenkins 
+* CICD
+    - [x] Jenkins
