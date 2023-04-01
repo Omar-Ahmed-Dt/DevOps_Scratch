@@ -33,3 +33,5 @@ compete more effectively in the market.
     - [x] Git and GitHub
 * CICD
     - [x] Jenkins
+* IAC
+    - [x] Terraform
