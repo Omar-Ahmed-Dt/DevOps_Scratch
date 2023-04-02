@@ -5,4 +5,5 @@ resource "aws_internet_gateway" "myigw" {
   tags = {
     Name = var.name
   }
+
 }

@@ -1,7 +1,7 @@
-# Varaibles 
+# Arguments
 variable "cidr" {
-  type    = string
-  default = "10.0.0.0/16"
+  type = string
+  #default = "10.0.0.0/16"
 }
 
 variable "name" {
@@ -29,9 +29,5 @@ variable "az1" {
 }
 
 variable "az2" {
-  type = string
-}
-
-variable "region" {
   type = string
 }
