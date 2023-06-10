@@ -1,6 +1,7 @@
 ### < Resources > 
 > Linux && Apache 
  * https://www.youtube.com/playlist?list=PLy1Fx2HfcmWBpD_PI4AQpjeDK5-5q6TG7
+ * https://www.udemy.com/course/linux-foundation-certified-systems-administrator-lfcs/
 > Nginx 
  * https://www.youtube.com/watch?v=7VAI73roXaY&t=2234s
 > Bash Scripting 
