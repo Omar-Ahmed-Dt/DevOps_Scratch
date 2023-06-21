@@ -10,3 +10,6 @@ sudo usermod -a -G apache ec2-user
 sudo git clone https://github.com/zeineldin/AWS-ELB-testapp.git
 cd AWS-ELB-testapp
 sudo cp index.php /var/www/html/
+
+# x-forwarded
+# LogFormat "%h \"%{X-Forwarded-For}i\" %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined

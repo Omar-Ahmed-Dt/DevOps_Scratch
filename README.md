@@ -22,7 +22,8 @@ compete more effectively in the market.
     - [x] Python
     - [x] Bash 
 * Database 
-    - [x] MariaDB
+    - [x] Mysql
+    - [x] MongoDB
 * Configuration Management
     - [x] Ansible
 * Docker 
