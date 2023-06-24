@@ -29,6 +29,7 @@
  * https://www.youtube.com/watch?v=SLB_c_ayRMo
 > AWS 
  * https://www.youtube.com/playlist?list=PLOoZRfEtk6kWSM_l9xMjDh-_MJXl03-pf
+ * https://github.com/keenanromain/AWS-SAA-C02-Study-Guide
 > Ansible 
  * https://www.youtube.com/playlist?list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70
  * https://www.youtube.com/playlist?list=PL0yQYCnvTmOv7ctKBb66YQx11NrQPWSrx
