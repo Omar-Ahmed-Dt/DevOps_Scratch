@@ -9,6 +9,8 @@
 > python 
  * https://www.youtube.com/watch?v=mlbe7Vxr7yA&t=32344s
  * https://www.youtube.com/playlist?list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs
+> JavaScript: 
+* https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv
 > Git and Github 
  * https://www.youtube.com/watch?v=Q6G-J54vgKc&t=6806s
  * https://www.youtube.com/playlist?list=PLDoPjvoNmBAw4eOj58MZPakHjaO3frVMF
@@ -20,10 +22,11 @@
  * https://www.youtube.com/playlist?list=PLTbS-zwfzODB7RVIedHNql5u0ObBgbjjH
  * https://www.youtube.com/playlist?list=PLX1bW_GeBRhDCHijCrMO5F-oHg52rRBpl
  * https://www.youtube.com/watch?v=X48VuDVv0do
-> DataBase > MongoDB
+> DataBase 
  * https://maharatech.gov.eg/course/view.php?id=740
- * https://www.youtube.com/watch?v=rVkkN9rOF4o
- * https://www.mongodb.com/developer/products/mongodb/cheat-sheet/
+ * https://www.youtube.com/watch?v=kb-_GbpH3sQ&t=10118s
+ <!-- * https://www.youtube.com/watch?v=rVkkN9rOF4o -->
+ <!-- * https://www.mongodb.com/developer/products/mongodb/cheat-sheet/ -->
 > Terraform 
  * https://www.youtube.com/watch?v=V4waklkBC38
  * https://www.youtube.com/watch?v=SLB_c_ayRMo
