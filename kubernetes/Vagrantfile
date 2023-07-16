@@ -1,0 +1,11 @@
+VM_BOX = 'ubuntu/xenial64'
+NETWORK = 'forwarded_part'
+Vagrant.configure(2) do |config|
+    config.vm.box = VM_BOX
+    config.vm.network "public_network"
+    config.vm.provider "virtualbox" do |vb|
+      vb.memory = 4096
+    end
+end
+
+
