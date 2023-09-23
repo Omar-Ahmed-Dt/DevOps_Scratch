@@ -14,24 +14,28 @@ compete more effectively in the market.
 <!-- [![My Skills](https://skills.thijs.gg/icons?i=linux,bash,vim,github,python,docker,ansible,maven,nodejs,nginx,aws,jenkins,kubernetes,&theme=dark)](https://skills.thijs.gg) -->
 
 * Networking  
-* Linux_OS  
+* Linux
     - [x] lfcs
 * Web_Server
     - [x] Apache
     - [x] Nginx
 * Scripting 
     - [x] Python
-    - [x] Bash 
+    - [x] Bash Scripting
 * Database 
 * Configuration Management
     - [x] Ansible
-* Docker 
-* kubernetes
 * Cloud 
     - [x] AWS: SAA
 * VCS
     - [x] Git and GitHub
 * CICD
     - [x] Jenkins
+    - [x] GitHub Actions
 * IAC
     - [x] Terraform
+* Docker 
+* kubernetes
+* Helm
+* Monitoring
+    -[x] premetheus
