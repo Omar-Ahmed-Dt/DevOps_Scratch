@@ -15,6 +15,7 @@ compete more effectively in the market.
 
 * Networking  
 * Linux_OS  
+    - [x] lfcs
 * Web_Server
     - [x] Apache
     - [x] Nginx
