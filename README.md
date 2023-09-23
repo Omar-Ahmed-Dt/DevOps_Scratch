@@ -21,10 +21,7 @@ compete more effectively in the market.
 * Scripting 
     - [x] Python
     - [x] Bash 
-    - [x] javascript
 * Database 
-    - [x] Mysql
-    - [x] MongoDB
 * Configuration Management
     - [x] Ansible
 * Docker 
