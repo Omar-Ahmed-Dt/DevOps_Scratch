@@ -36,6 +36,7 @@ compete more effectively in the market.
     - [x] Terraform
 * Docker 
 * kubernetes
-* Helm
+* Pakckage Manager
+    - [x] Helm
 * Monitoring
     -[x] premetheus
