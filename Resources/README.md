@@ -28,6 +28,8 @@
 - Terraform 
     - https://www.youtube.com/watch?v=V4waklkBC38
     - https://www.youtube.com/watch?v=SLB_c_ayRMo
+    - projects
+        - https://www.youtube.com/playlist?list=PLiMWaCMwGJXkeBzos8QuUxiYT6j8JYGE5
 - AWS 
     - https://www.youtube.com/playlist?list=PLOoZRfEtk6kWSM_l9xMjDh-_MJXl03-pf
     - https://github.com/keenanromain/AWS-SAA-C02-Study-Guide
@@ -38,3 +40,6 @@
 - Cotinuous Integration with Jenkins 
     - https://www.youtube.com/playlist?list=PLLX4WuTjm3tLSokfozb34-1DN3nRQ6uDi
     - https://www.udemy.com/share/104Xxm3@RJZFj7LC_mlPUmlidFxMp0YO4YjQhXKKmXQP-STPLfKhJ8NqymeQXnMD52zY96UW/ -> jenkins section 
+- Cotinuous Devployment with argocd 
+    - https://www.youtube.com/playlist?list=PL34sAs7_26wMW4bWKnMIfEd87aPuw75by
+    - https://youtube.com/playlist?list=PLiMWaCMwGJXkktZoHhmL6sbg7ELNjv9Xw&si=lJnTnOL1BTX3efsV
