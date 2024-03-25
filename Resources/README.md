@@ -19,9 +19,12 @@
     - https://www.youtube.com/playlist?list=PLzNfs-3kBUJnY7Cy1XovLaAkgfjim05RR
     - https://www.youtube.com/playlist?list=PLX1bW_GeBRhDkTf_jbdvBbkHs2LCWVeXZ
 - Kubernetes 
+    - https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests
     - https://www.youtube.com/playlist?list=PLTbS-zwfzODB7RVIedHNql5u0ObBgbjjH
     - https://www.youtube.com/playlist?list=PLX1bW_GeBRhDCHijCrMO5F-oHg52rRBpl
     - https://www.youtube.com/watch?v=X48VuDVv0do
+- helm: 
+    - https://www.youtube.com/playlist?list=PL7iMyoQPMtANm_35XWjkNzDCcsw9vy01b
 - DataBase 
     - https://maharatech.gov.eg/course/view.php?id=740
     - https://www.youtube.com/watch?v=kb-_GbpH3sQ&t=10118s
