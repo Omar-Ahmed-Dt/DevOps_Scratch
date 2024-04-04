@@ -23,6 +23,8 @@ compete more effectively in the market.
     - [x] Python
     - [x] Bash Scripting
 * Database 
+    - [x] mysql
+    - [x] postgres
 * Configuration Management
     - [x] Ansible
 * Cloud 
@@ -36,7 +38,7 @@ compete more effectively in the market.
     - [x] Terraform
 * Docker 
 * kubernetes
-* Package Manager 
+* kubernetes Package Manager 
     - [x] Helm
 * Monitoring
     - [x] premetheus
