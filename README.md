@@ -42,3 +42,4 @@ compete more effectively in the market.
     - [x] Helm
 * Monitoring
     - [x] premetheus
+    - [x] grafana
