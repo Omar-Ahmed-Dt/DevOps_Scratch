@@ -28,6 +28,7 @@
 - DataBase 
     - https://maharatech.gov.eg/course/view.php?id=740
     - https://www.youtube.com/watch?v=kb-_GbpH3sQ&t=10118s
+    - https://www.youtube.com/playlist?list=PLhQjrBD2T382v1MBjNOhPu9SiJ1fsD4C0
 - Terraform 
     - https://www.youtube.com/watch?v=V4waklkBC38
     - https://www.youtube.com/watch?v=SLB_c_ayRMo
