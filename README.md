@@ -38,6 +38,8 @@ compete more effectively in the market.
     - [x] Terraform
 * Docker 
 * kubernetes
+    - [x] CKA
+    - [x] CKAD
 * kubernetes Package Manager 
     - [x] Helm
 * Monitoring
